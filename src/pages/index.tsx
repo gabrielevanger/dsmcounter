@@ -17,7 +17,6 @@ export default function Home() {
       </Head>
       <S.Main>
         <HeaderLogin />
-
         <Form />
       </S.Main>
     </>

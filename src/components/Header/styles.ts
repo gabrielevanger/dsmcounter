@@ -17,4 +17,21 @@ export const HeaderContent = styled.div`
     justify-content: space-between;
     align-items: center;
 `
+export const CompanyButton = styled.button`
+    height: 50px;
+    border: 0;
+    background: ${tokens.colors.terciary};
+    color: ${tokens.colors.light};
+    font-weight: ${tokens.fontWeights.bold};
+    padding: 0 1.25rem;
+    border-radius: 6px;
+    cursor: pointer;
+   
+   
 
+    &:hover {
+        background: ${tokens.colors.terciary_shade};
+        transition: background-color 0.2s;
+    }
+
+`;

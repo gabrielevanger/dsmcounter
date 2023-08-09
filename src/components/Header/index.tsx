@@ -9,8 +9,7 @@ export default function Header() {
     <S.HeaderContainer>
       <S.HeaderContent>
         <M2Logo />
-
-        <button>Selecione uma empresa</button>
+        <S.CompanyButton>Selecione uma empresa</S.CompanyButton>
       </S.HeaderContent>
     </S.HeaderContainer>
   );
