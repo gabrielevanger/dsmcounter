@@ -1,0 +1,70 @@
+export default {
+  colors: {
+    primary: '#2FC9FC',
+    primary_tint: '#B0EBFF',
+    primary_shade: '#0073CE',
+    secondary: '#21546C',
+    secondary_tint: '#527A8D',
+    secondary_shade: '#08415C',
+    terciary: '#FF814F',
+    terciary_tint: '#FFC795',
+    terciary_shade: '#F06543',
+    dark: '#767A80',
+    dark_tint: '#CFD2D7',
+    dark_shade: '#36383B',
+    light: '#F0F1F3',
+    light_tint: '#F8F9FA',
+    light_shade: '#DEE2E6',
+    auxiliary: '#F15383',
+    auxiliary_tint: '#FFFFFF',
+    auxiliary_shade: '#5DCB75'
+  },
+  fontSizes: {
+    xs: '0.75rem',
+    sm: '0.875rem',
+    md: '1rem',
+    lg: '1.125rem',
+    xl: '1.375rem',
+    _2xl: '1.25rem',
+    _3xl: '1.5rem',
+    _4xl: '1.875rem',
+    _5xl: '2.25rem',
+    _6xl: '3rem',
+    _7xl: '3.75rem',
+    _8xl: '4.5rem',
+    _9xl: '6rem',
+    _10xl: '8rem'
+  },
+  fontWeights: {
+    hairline: 100,
+    thin: 200,
+    light: 300,
+    normal: 400,
+    medium: 500,
+    semibold: 600,
+    bold: 700,
+    extrabold: 800,
+    black: 900
+  },
+  lineHeights: {
+    xs: '	0.625rem',
+    sm: '	0.75rem',
+    md: '	0.875rem',
+    lg: '	1rem',
+    xl: '  1.125rem',
+    _2xl: '	1.25rem',
+    _3xl: '  1.375rem',
+    _4xl: '	1.5rem',
+    _5xl: '  1.625rem',
+    _6xl: '	1.75rem',
+    _7xl: '	2rem',
+    _8xl: ' 2.125rem',
+    _9xl: '	2.25rem',
+    _10xl: ' 2.375rem',
+    _11xl: '	2.5rem'
+  },
+  fontFamily: {
+    _montserrat: 'Montserrat',
+    _roboto: 'Roboto'
+  }
+} as const;
